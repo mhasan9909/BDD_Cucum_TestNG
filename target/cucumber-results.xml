@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="16.821">
+    <testcase classname="checking facebook signup functionality" name="user is able to login" time="8.587">
+        <system-out>
+            <![CDATA[Given user at facebook homepage.............................................passed
+Then click on create new account............................................passed
+Then user entering "fName" "jon"............................................passed
+Then user entering "lName" "Kan"............................................passed
+When user entering "phonEmail" "amd@gmail.com"..............................passed
+And user entering "newPass" "hfdh$123"......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="checking facebook signup functionality" name="user is able to login 2" time="7.906">
+        <system-out>
+            <![CDATA[Given user at facebook homepage.............................................passed
+Then click on create new account............................................passed
+Then user entering "fName" "jon"............................................passed
+Then user entering "lName" "Kan"............................................passed
+When user entering "phonEmail" "amd@gmail.com"..............................passed
+And user entering "newPass" "hfdh$123"......................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

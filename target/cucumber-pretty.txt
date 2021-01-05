@@ -1,0 +1,18 @@
+
+@smoke
+Scenario Outline: user is able to login          [90m# src/test/resources/feature_Sprint/US001.feature:18[0m
+  [32mGiven [0m[32muser at facebook homepage[0m                [90m# stepDefination.GUI_Step_Defination.signUp()[0m
+  [32mThen [0m[32mclick on create new account[0m               [90m# stepDefination.GUI_Step_Defination.fbCreateAcct()[0m
+  [32mThen [0m[32muser entering [0m[32m[1m"fName"[0m[32m [0m[32m[1m"jon"[0m               [90m# stepDefination.GUI_Step_Defination.user_enter_userInfo_as(java.lang.String,java.lang.String)[0m
+  [32mThen [0m[32muser entering [0m[32m[1m"lName"[0m[32m [0m[32m[1m"Kan"[0m               [90m# stepDefination.GUI_Step_Defination.user_enter_userInfo_as(java.lang.String,java.lang.String)[0m
+  [32mWhen [0m[32muser entering [0m[32m[1m"phonEmail"[0m[32m [0m[32m[1m"amd@gmail.com"[0m [90m# stepDefination.GUI_Step_Defination.user_enter_userInfo_as(java.lang.String,java.lang.String)[0m
+  [32mAnd [0m[32muser entering [0m[32m[1m"newPass"[0m[32m [0m[32m[1m"hfdh$123"[0m         [90m# stepDefination.GUI_Step_Defination.user_enter_userInfo_as(java.lang.String,java.lang.String)[0m
+
+@Adhoc
+Scenario Outline: user is able to login          [90m# src/test/resources/feature_Sprint/US001.feature:37[0m
+  [32mGiven [0m[32muser at facebook homepage[0m                [90m# stepDefination.GUI_Step_Defination.signUp()[0m
+  [32mThen [0m[32mclick on create new account[0m               [90m# stepDefination.GUI_Step_Defination.fbCreateAcct()[0m
+  [32mThen [0m[32muser entering [0m[32m[1m"fName"[0m[32m [0m[32m[1m"jon"[0m               [90m# stepDefination.GUI_Step_Defination.user_enter_userInfo_as(java.lang.String,java.lang.String)[0m
+  [32mThen [0m[32muser entering [0m[32m[1m"lName"[0m[32m [0m[32m[1m"Kan"[0m               [90m# stepDefination.GUI_Step_Defination.user_enter_userInfo_as(java.lang.String,java.lang.String)[0m
+  [32mWhen [0m[32muser entering [0m[32m[1m"phonEmail"[0m[32m [0m[32m[1m"amd@gmail.com"[0m [90m# stepDefination.GUI_Step_Defination.user_enter_userInfo_as(java.lang.String,java.lang.String)[0m
+  [32mAnd [0m[32muser entering [0m[32m[1m"newPass"[0m[32m [0m[32m[1m"hfdh$123"[0m         [90m# stepDefination.GUI_Step_Defination.user_enter_userInfo_as(java.lang.String,java.lang.String)[0m

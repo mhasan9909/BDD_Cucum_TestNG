@@ -1,0 +1,313 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-05T19:20:46.806Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3403425000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.GUI_Step_Defination.bRun()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "user is able to login",
+        "description": "",
+        "id": "checking-facebook-signup-functionality;user-is-able-to-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 107462000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.GUI_Step_Defination.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9743000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user at facebook homepage",
+            "match": {
+              "location": "stepDefination.GUI_Step_Defination.signUp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136101000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on create new account",
+            "match": {
+              "location": "stepDefination.GUI_Step_Defination.fbCreateAcct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1618523000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user entering \"fName\" \"jon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fName\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"jon\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefination.GUI_Step_Defination.user_enter_userInfo_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1087679000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user entering \"lName\" \"Kan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lName\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Kan\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefination.GUI_Step_Defination.user_enter_userInfo_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1104911000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user entering \"phonEmail\" \"amd@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"phonEmail\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"amd@gmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefination.GUI_Step_Defination.user_enter_userInfo_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1085033000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user entering \"newPass\" \"hfdh$123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"newPass\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"hfdh$123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefination.GUI_Step_Defination.user_enter_userInfo_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-05T19:20:55.424Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2840340000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.GUI_Step_Defination.bRun()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "user is able to login",
+        "description": "",
+        "id": "checking-facebook-signup-functionality;user-is-able-to-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 107352000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.GUI_Step_Defination.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7026000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user at facebook homepage",
+            "match": {
+              "location": "stepDefination.GUI_Step_Defination.signUp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 165582000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click on create new account",
+            "match": {
+              "location": "stepDefination.GUI_Step_Defination.fbCreateAcct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1489371000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user entering \"fName\" \"jon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fName\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"jon\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefination.GUI_Step_Defination.user_enter_userInfo_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1095216000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user entering \"lName\" \"Kan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lName\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Kan\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefination.GUI_Step_Defination.user_enter_userInfo_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1105264000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user entering \"phonEmail\" \"amd@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"phonEmail\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"amd@gmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefination.GUI_Step_Defination.user_enter_userInfo_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1085425000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user entering \"newPass\" \"hfdh$123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"newPass\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"hfdh$123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefination.GUI_Step_Defination.user_enter_userInfo_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Adhoc"
+          }
+        ]
+      }
+    ],
+    "name": "checking facebook signup functionality",
+    "description": "",
+    "id": "checking-facebook-signup-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature_Sprint/US001.feature",
+    "tags": []
+  }
+]

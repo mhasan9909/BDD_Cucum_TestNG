@@ -1,0 +1,119 @@
+[
+  {
+    "source": "^user at facebook homepage$",
+    "steps": [
+      {
+        "name": "user at facebook homepage",
+        "aggregatedDurations": {
+          "median": 0.0083845,
+          "average": 0.0083845
+        },
+        "durations": [
+          {
+            "duration": 0.009743,
+            "location": "file:///Users/mdhasan/eclipse-workspace/BDD_Proj/src/test/resources/feature_Sprint/US001.feature:6"
+          },
+          {
+            "duration": 0.007026,
+            "location": "file:///Users/mdhasan/eclipse-workspace/BDD_Proj/src/test/resources/feature_Sprint/US001.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "click on create new account",
+    "steps": [
+      {
+        "name": "click on create new account",
+        "aggregatedDurations": {
+          "median": 0.1508415,
+          "average": 0.1508415
+        },
+        "durations": [
+          {
+            "duration": 0.136101,
+            "location": "file:///Users/mdhasan/eclipse-workspace/BDD_Proj/src/test/resources/feature_Sprint/US001.feature:7"
+          },
+          {
+            "duration": 0.165582,
+            "location": "file:///Users/mdhasan/eclipse-workspace/BDD_Proj/src/test/resources/feature_Sprint/US001.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user entering {string} {string}",
+    "steps": [
+      {
+        "name": "user entering \"fName\" \"jon\"",
+        "aggregatedDurations": {
+          "median": 1.553947,
+          "average": 1.553947
+        },
+        "durations": [
+          {
+            "duration": 1.618523,
+            "location": "file:///Users/mdhasan/eclipse-workspace/BDD_Proj/src/test/resources/feature_Sprint/US001.feature:8"
+          },
+          {
+            "duration": 1.489371,
+            "location": "file:///Users/mdhasan/eclipse-workspace/BDD_Proj/src/test/resources/feature_Sprint/US001.feature:27"
+          }
+        ]
+      },
+      {
+        "name": "user entering \"lName\" \"Kan\"",
+        "aggregatedDurations": {
+          "median": 1.0914475,
+          "average": 1.0914475
+        },
+        "durations": [
+          {
+            "duration": 1.087679,
+            "location": "file:///Users/mdhasan/eclipse-workspace/BDD_Proj/src/test/resources/feature_Sprint/US001.feature:9"
+          },
+          {
+            "duration": 1.095216,
+            "location": "file:///Users/mdhasan/eclipse-workspace/BDD_Proj/src/test/resources/feature_Sprint/US001.feature:28"
+          }
+        ]
+      },
+      {
+        "name": "user entering \"phonEmail\" \"amd@gmail.com\"",
+        "aggregatedDurations": {
+          "median": 1.1050875,
+          "average": 1.1050875
+        },
+        "durations": [
+          {
+            "duration": 1.104911,
+            "location": "file:///Users/mdhasan/eclipse-workspace/BDD_Proj/src/test/resources/feature_Sprint/US001.feature:10"
+          },
+          {
+            "duration": 1.105264,
+            "location": "file:///Users/mdhasan/eclipse-workspace/BDD_Proj/src/test/resources/feature_Sprint/US001.feature:29"
+          }
+        ]
+      },
+      {
+        "name": "user entering \"newPass\" \"hfdh$123\"",
+        "aggregatedDurations": {
+          "median": 1.085229,
+          "average": 1.085229
+        },
+        "durations": [
+          {
+            "duration": 1.085033,
+            "location": "file:///Users/mdhasan/eclipse-workspace/BDD_Proj/src/test/resources/feature_Sprint/US001.feature:11"
+          },
+          {
+            "duration": 1.085425,
+            "location": "file:///Users/mdhasan/eclipse-workspace/BDD_Proj/src/test/resources/feature_Sprint/US001.feature:30"
+          }
+        ]
+      }
+    ]
+  }
+]
